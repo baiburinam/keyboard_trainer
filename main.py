@@ -1,7 +1,9 @@
 from tkinter import font
 
-from classes import *
-from window_functions import *
+from src.mistake import Mistake
+from src.results import Results
+from src.time_speed import TimeSpeed
+from src.utils import *
 
 
 def close():
