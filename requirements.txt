@@ -1,5 +1,5 @@
-from tkinter import *
-from tkinter import ttk
-import time
 import json
-from tkinter.messagebox import showinfo, askyesno
+import time
+
+from tkinter import font, Tk, ttk, NW, SOLID
+from tkinter.messagebox import askyesno, showinfo
