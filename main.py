@@ -9,8 +9,9 @@ from src.utils import *
 def close():
     my_statistics = {'mistake': mistake_int.all_mst, 'all chr': mistake_int.all_chr,
                      'time': speed_time.all_time}
-
-    with open('statistic.json', 'w') as f:
+    
+    file_path = os.path.join('src', 'statistic.json')
+    with open(file_path, 'w') as f:
         json.dump(my_statistics, f)
 
     main_window.destroy()
@@ -23,8 +24,8 @@ mistake_int = Mistake()
 speed_time = TimeSpeed()
 my_results = Results()
 
-my_results.task = open_file('example_task.json')
-my_old_stat = open_file('statistic.json')
+my_results.task = open_file(os.path.join('src', 'example_task.json'))
+my_old_stat = open_file(os.path.join('src', 'statistic.json'))
 
 speed_time.all_time = my_old_stat['time']
 mistake_int.all_mst = my_old_stat['mistake']
