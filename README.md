@@ -6,6 +6,7 @@ Tutorial:
 If it is your first time of typing practice, you can click on the button 'Clear all statistics'. 
 As a result, your speed of typing and count of mistakes will be counted correctly. 
 If you want to start with old statistics, don't press the button.
+![alt text](https://github.com/baiburinam/keyboard_trainer/blob/566fe64bec2d7c04bf6c3b2a1aafc385bb55ac85/src/image/start.png)
 
 2) Above the entry field you can see a text to type. 
 You need to type this text into entry field. 
