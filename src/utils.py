@@ -11,7 +11,8 @@ def close(main_window, mistake_int, speed_time):
     my_statistics = {'mistake': mistake_int.all_mst, 'all chr': mistake_int.all_chr,
                      'time': speed_time.all_time}
 
-    with open('statistic.json', 'w') as f:
+    file_path = os.path.join('src', 'statistic.json')
+    with open(file_path, 'w') as f:
         json.dump(my_statistics, f)
 
     main_window.destroy()
