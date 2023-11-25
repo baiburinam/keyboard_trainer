@@ -39,4 +39,7 @@ If you want to use your text as a task, you need:
 }
 
 3) Lines shouldn't be too long (80 characters are enough).
-4) Add file to proje
+4) Add file to project
+5) Start practice
+
+Reminder: if you want to clear statistics, press the button 'Clear all statistics'.
