@@ -5,8 +5,6 @@ import time
 from tkinter import Tk, ttk, NW, SOLID
 from tkinter.messagebox import askyesno, showinfo
 
-from config import *
-
 
 def close(main_window, mistake_int, speed_time):
     my_statistics = {'mistake': mistake_int.all_mst, 'all chr': mistake_int.all_chr,
@@ -20,6 +18,15 @@ def close(main_window, mistake_int, speed_time):
 
 
 def create_window():
+    WINDOW_LENGTH = 1100
+    WINDOW_HIGHT = 700
+    WINDOW_X_SHIFT = 250
+    WINDOW_Y_SHIFT = 50
+    WINDOW_X_MIN_SIZE = 600
+    WINDOW_Y_MIN_SIZE = 400
+    WINDOW_X_MAX_SIZE = 1200
+    WINDOW_Y_MAX_SIZE = 1000
+
     main_window = Tk()
     main_window.title("Keyboard trainer")
 
