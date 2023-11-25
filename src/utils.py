@@ -5,7 +5,7 @@ import time
 from tkinter import Tk, ttk, NW, SOLID
 from tkinter.messagebox import askyesno, showinfo
 
-from src.config import *
+from config import *
 
 
 def close(main_window, mistake_int, speed_time):
